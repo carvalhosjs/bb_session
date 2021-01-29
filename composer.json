@@ -16,10 +16,7 @@
   "autoload": {
     "psr-4": {
       "BBSession\\": "source/"
-    },
-    "files": [
-      "source/Support/Config.php"
-    ]
+    }
   },
   "require": {
     "php": "^7.1"
