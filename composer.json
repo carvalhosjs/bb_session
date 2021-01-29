@@ -1,0 +1,27 @@
+{
+  "name": "bblibs/bb_session",
+  "description": "Controle de Sessao",
+  "minimum-stability": "stable",
+  "authors": [
+    {
+      "name": "Carlos Mateus Carvalho",
+      "email": "carvalho.ti.adm@gmail.com",
+      "homepage": "https://carvalhosjs.github.io/",
+      "role": "Developer"
+    }
+  ],
+  "config": {
+    "vendor-dir": "vendor"
+  },
+  "autoload": {
+    "psr-4": {
+      "BBSession\\": "source/"
+    },
+    "files": [
+      "source/Support/Config.php"
+    ]
+  },
+  "require": {
+    "php": "^7.1"
+  }
+}
