@@ -1,4 +1,5 @@
 <?php
+//funcao para checkar request
 function bb_session_request_limit(string $key, int $limit = 5, int $seconds = 60): bool
 {
     $session = new \BBSession\Core\Session();
